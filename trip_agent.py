@@ -1,5 +1,5 @@
 import os
-from langchain.agents.agent import initialize_agent
+from langchain.agents import initialize_agent
 from langchain.chat_models import ChatOpenAI
 from langchain.agents.agent_types import AgentType
 from tools.flight_tool import search_flight
