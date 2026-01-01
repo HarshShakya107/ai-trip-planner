@@ -1,6 +1,6 @@
 
 import streamlit as st
-from agent import agent_executor
+from trip_agent import agent_executor
 
 st.set_page_config("AI Trip Planner", layout="wide")
 st.title("🧭 AI Trip Planner")
